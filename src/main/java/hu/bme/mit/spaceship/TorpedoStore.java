@@ -14,6 +14,8 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
+  //random generator for the fire method
+  //stored here to improve randomness
   Random generator = new Random();
 
   public TorpedoStore(int numberOfTorpedos){
